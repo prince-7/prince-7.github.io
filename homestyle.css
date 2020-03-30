@@ -1,0 +1,29 @@
+body
+{
+	color: white;
+	background-image:url(ba.gif);
+	background-size: cover;
+	font-family: "lato" ;
+	font-size: 150% ;
+	line-height: 50px;
+
+}
+#pro h2:hover
+{
+	text-decoration: underline; color:yellow;
+}
+li
+{
+	list-style: none;
+	display:inline-block;
+}
+li:first-child :hover
+{
+	height: 30px;
+	width:  150px;
+	color: green;
+}
+p
+{
+	text-align: right;
+}
