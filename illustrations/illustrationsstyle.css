@@ -1,0 +1,25 @@
+body
+{
+	background-color: #E2E1E5;
+	font-family: "Billabong";
+	font-size: 400%;
+}
+.container
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img
+{
+	width:400px;
+	height:300px;
+	margin:10px;
+	transition: all 0.7s;
+}
+img:hover
+{
+	transform: scale(1.1);
+	box-shadow: 6px 6px 6px 6px #888888;
+}

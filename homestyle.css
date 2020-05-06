@@ -10,12 +10,15 @@ body
 }
 #pro h2:hover
 {
-	text-decoration: underline; color:yellow;
+	text-decoration:underline; 
+	color:yellow;
 }
-li
+ul
 {
+	padding: 0;
 	list-style: none;
 	display:inline-block;
+	margin: 20px;
 }
 li:first-child :hover
 {
@@ -23,7 +26,9 @@ li:first-child :hover
 	width:  150px;
 	color: green;
 }
-p
+
+.inactive
 {
-	text-align: right;
+	display: block;
+	background: #000000;
 }
