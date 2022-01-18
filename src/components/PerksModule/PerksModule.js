@@ -21,7 +21,7 @@ const PerksModule = () => {
           content="By using GatsbyJS, the Barcadia site is super-fast out of the box"
         >
           <StaticImage
-            src="../../../static/logos/gatsby-logo.svg"
+            src="../../../static/logos/aman-logo.svg"
             alt="Perk Image"
             layout="constrained"
             placeholder="tracedSVG"
