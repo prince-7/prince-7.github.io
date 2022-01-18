@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://amanvsingh.me/sitemap.xml
+Host: https://amanvsingh.me
