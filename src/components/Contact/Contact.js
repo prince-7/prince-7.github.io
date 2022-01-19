@@ -5,7 +5,8 @@ import { ContactStyles } from "./ContactStyles"
 const Contact = () => {
   return (
     <ContactStyles className="section">
-      <form name="contact" netlify>
+      <form name="contact" action="https://formspree.io/f/xzbodveg"
+  method="POST">
         <input placeholder="Your name..." type="text" name="name" />
         <input placeholder="Your email..." type="email" name="email" />
         <textarea
@@ -13,7 +14,7 @@ const Contact = () => {
           name="message"
           rows="5"
         ></textarea>
-        <Button text="Send Message" />
+        <Button text="Send Message" type="submit" />
       </form>
     </ContactStyles>
   )
