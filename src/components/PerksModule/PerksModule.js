@@ -1,12 +1,12 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { PerksModuleStyles } from "./PerksModuleStyles"
-import { MdOutlineClose as Cross } from "react-icons/md"
-import Perk from "./Perk"
+import { Chrono } from "react-chrono"
+import items from "./data"
 
 const PerksModule = () => {
   return (
-    <PerksModuleStyles className="section section__padding">
+    <PerksModuleStyles>
       <StaticImage
         className="perks__image--bg"
         src="../../../static/abstract-building.jpg"
@@ -16,31 +16,17 @@ const PerksModule = () => {
       />
       <div className="perks__image--overlay"></div>
       <div className="container container__tight">
-        <Perk
-          title="Built For Speed"
-          content="By using GatsbyJS, the Barcadia site is super-fast out of the box"
-        >
-          <StaticImage
-            src="../../../static/logos/aman-logo.svg"
-            alt="Perk Image"
-            layout="constrained"
-            placeholder="tracedSVG"
+      <div style={{ width: "100%", height: "500px", marginTop: "20px", marginBottom: "20px"}}>
+          <Chrono items={items} mode="HORIZONTAL"
+          theme={{ 
+            primary: "#6200ee",
+            secondary: "#bb86fc",
+            cardBgColor: "#1e1e1e",
+            cardForeColor: "#bb86fc",
+            titleColor: "#e1e1e1"
+          }}
           />
-        </Perk>
-        <span className="perks__divider">
-          <Cross />
-        </span>
-        <Perk
-          title="Built For Content"
-          content="Contentful helps you edit your application with ease as your business expands"
-        >
-          <StaticImage
-            src="../../../static/logos/logo.png"
-            alt="Perk Image"
-            layout="constrained"
-            placeholder="tracedSVG"
-          />
-        </Perk>
+        </div>
       </div>
     </PerksModuleStyles>
   )

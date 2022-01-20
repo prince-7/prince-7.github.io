@@ -18,19 +18,17 @@ const Index = () => {
           subTitle="Coder Developer Hacker"
         />
         <BasicTextModule
-          title="A super-fast theme that is easy to get started, using the power of
-            GatsbyJS"
-          content="Using modern CSS properties such as grid, this theme is optmised for
-            speed and mobile devices. Giving users an excellent experience on
-            any device. Future-proofing your product."
+          title="I have passion for software development and Cyber Security"
+          content="I have Contributed to numerous OpenSource Projects and also have successfully Completed GSoC'21 with OWASP Foundation for Secure-Tea Project. 
+          I have experience with React, Nodejs, and Python while building my projects and during Internships."
           link="/products"
-          linkText="View Products"
+          linkText="View Projects"
         />
         <PerksModule>
           <Perk title="The Title" content="The content" />
         </PerksModule>
         <Features
-          title="Featured Products from Barcadia."
+          title="Featured Projects"
           introduction="Vivamus quam mauris, pulvinar vel mauris id, interdum semper neque. Proin malesuada libero eget tellus scelerisque, id egestas tortor egestas."
         />
         <LatestPosts

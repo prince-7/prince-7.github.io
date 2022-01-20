@@ -57,11 +57,11 @@ export const PerksModuleStyles = styled.section`
 `
 
 export const PerkStyles = styled.aside`
-  max-width: 275px;
+  max-width: 200px;
   text-align: center;
 
-  @media (min-width: 414px) {
-    max-width: 325px;
+  @media (min-width: 200px) {
+    max-width: 200px;
   }
 
   @media (min-width: 768px) {
