@@ -16,7 +16,7 @@ const PerksModule = () => {
       />
       <div className="perks__image--overlay"></div>
       <div className="container container__tight">
-      <div style={{ width: "100%", height: "500px", marginTop: "20px", marginBottom: "20px"}}>
+      <div style={{ width: "100%", height: "500px", margin: "50px"}}>
           <Chrono items={items} mode="HORIZONTAL"
           theme={{ 
             primary: "#6200ee",

@@ -2097,7 +2097,7 @@
       },
       "fields": {
         "url": {
-          "en-US": "news"
+          "en-US": "blog"
         },
         "headerImage": {
           "en-US": {
@@ -2109,7 +2109,7 @@
           }
         },
         "title": {
-          "en-US": "News"
+          "en-US": "Blog"
         },
         "template": {
           "en-US": "feed"
@@ -4324,7 +4324,7 @@
       },
       "fields": {
         "url": {
-          "en-US": "products"
+          "en-US": "projects"
         },
         "headerImage": {
           "en-US": {
@@ -4336,13 +4336,13 @@
           }
         },
         "title": {
-          "en-US": "Products"
+          "en-US": "Projects"
         },
         "template": {
           "en-US": "feed"
         },
         "feedType": {
-          "en-US": "Products"
+          "en-US": "Product"
         }
       }
     },

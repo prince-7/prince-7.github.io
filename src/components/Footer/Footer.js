@@ -9,6 +9,7 @@ import {
   FaTwitterSquare as Twitter,
   FaInstagram as Instagram,
   FaLinkedin as Linkedin,
+  FaGithubSquare as Github,
 } from "react-icons/fa"
 
 const Footer = () => {
@@ -35,8 +36,8 @@ const Footer = () => {
         {allProduct.length > 0 && (
           <FooterMenuStyles className="footer__menu products__menu">
             <h5>
-              <Link to="/products">
-                All Products<span>.</span>
+              <Link to="/projects">
+                All Projects<span>.</span>
               </Link>
             </h5>
             <ul>
@@ -59,12 +60,24 @@ const Footer = () => {
         {siteMeta.twitterUsername ||
         siteMeta.facebookUsername ||
         siteMeta.instagramUsername ||
+        siteMeta.githubUsername ||
         siteMeta.linkedinUsername ? (
           <FooterMenuStyles className="footer__menu social__menu">
             <h5>
               Follow Me<span>.</span>
             </h5>
             <ul>
+            {siteMeta.githubUsername && (
+                  <li>
+                    <a
+                      href={`https:/github.com/${siteMeta.githubUsername}`}
+                      target="_blank"
+                      rel="nofollow noreferrer noopener"
+                    >
+                      <Github />
+                    </a>
+                  </li>
+              )}
               {siteMeta.twitterUsername && (
                 <li>
                   <a
@@ -84,17 +97,6 @@ const Footer = () => {
                     rel="nofollow noreferrer noopener"
                   >
                     <Facebook />
-                  </a>
-                </li>
-              )}
-              {siteMeta.instagramUsername && (
-                <li>
-                  <a
-                    href={`https://www.instagram.com/${siteMeta.instagramUsername}`}
-                    target="_blank"
-                    rel="nofollow noreferrer noopener"
-                  >
-                    <Instagram />
                   </a>
                 </li>
               )}

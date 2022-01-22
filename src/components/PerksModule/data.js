@@ -3,7 +3,7 @@ const items = [
         title: "May - August 2021",
         cardTitle: "GSoC'21",
         cardSubtitle:
-          "Complete Google Summer of Code'21 with OWASP Foundation for Secure-Tea Project as Student Developer",
+          "Completed Google Summer of Code'21 with OWASP Foundation for Secure-Tea Project as Student Developer",
         url: "https://summerofcode.withgoogle.com/archive/2021/projects/4757291168956416",
       },
       {

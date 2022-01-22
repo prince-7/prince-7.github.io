@@ -8,7 +8,7 @@ const useLatestPost = () => {
       allContentfulPost(sort: { fields: createdAt, order: DESC }, limit: 3) {
         nodes {
           title
-          gatsbyPath(filePath: "/news/{contentfulPost.url}")
+          gatsbyPath(filePath: "/blog/{contentfulPost.url}")
           createdAt(formatString: "DD MMMM, YYYY")
           introduction
         }

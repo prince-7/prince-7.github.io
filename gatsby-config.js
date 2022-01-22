@@ -9,12 +9,13 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: "Aman Singh",
-    description: "Portfolio",
+    description: "I am a developer who also has good knowledge and practice in the field of CyberSecurity and Networking. I have Contributed to numerous OpenSource Projects and also have successfully Completed GSoC'21 with OWASP Foundation for Secure-Tea Project. I have a passion for Web-Development and Cybersecurity and also have good Knowledge of data structures and Algorithms. I have dabbled with the basics of Machine Learning. I have experience with React, Nodejs, and Python while building my projects and during Internships.",
     author: "Aman Singh",
     twitterUsername: "Dungeon_Mas7er",
     facebookUsername: "Am4nS1ngh",
     instagramUsername: "am4n_s1ngh",
     linkedinUsername: "aman-v-singh",
+    githubUsername: "prince-7",
     image: "/dungeonmaster.jpg",
     siteUrl: "https://amanvsingh.me",
     developerName: "Aman Singh",

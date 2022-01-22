@@ -101,7 +101,7 @@ const NavModule = () => {
                 onClick={toggleSubNav}
                 onKeyDown={toggleSubNav}
               >
-                Products<span>.</span>
+                Projects<span>.</span>
                 <Chevron />
               </button>
 
@@ -114,9 +114,9 @@ const NavModule = () => {
                   <Link
                     onClick={toggleNav}
                     onKeyDown={toggleNav}
-                    to="/products"
+                    to="/projects"
                   >
-                    All Products<span>.</span>
+                    All Projects<span>.</span>
                   </Link>
                 </li>
                 <hr />

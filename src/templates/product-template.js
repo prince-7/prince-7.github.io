@@ -71,7 +71,6 @@ const Producttemplate = (contentfulProduct) => {
   const {
     headerImage,
     title,
-    price,
     introduction,
     description,
     faqs,
@@ -83,7 +82,6 @@ const Producttemplate = (contentfulProduct) => {
       <Seo title={title} />
       <BannerModule
         title={title}
-        price={price}
         subTitle={introduction}
         enquire={true}
       >
@@ -126,8 +124,8 @@ const Producttemplate = (contentfulProduct) => {
         </ProductGallery>
       )}
       <Features
-        title="Featured Products from Barcadia."
-        introduction="Vivamus quam mauris, pulvinar vel mauris id, interdum semper neque. Proin malesuada libero eget tellus scelerisque, id egestas tortor egestas."
+        title="Featured Projects."
+        introduction="I have experience with React, Nodejs, and Python while building my projects and during Internships."
       />
     </>
   )

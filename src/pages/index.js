@@ -21,7 +21,7 @@ const Index = () => {
           title="I have passion for software development and Cyber Security"
           content="I have Contributed to numerous OpenSource Projects and also have successfully Completed GSoC'21 with OWASP Foundation for Secure-Tea Project. 
           I have experience with React, Nodejs, and Python while building my projects and during Internships."
-          link="/products"
+          link="/projects"
           linkText="View Projects"
         />
         <PerksModule>
@@ -29,11 +29,11 @@ const Index = () => {
         </PerksModule>
         <Features
           title="Featured Projects"
-          introduction="Vivamus quam mauris, pulvinar vel mauris id, interdum semper neque. Proin malesuada libero eget tellus scelerisque, id egestas tortor egestas."
+          introduction="I have experience with React, Nodejs, and Python while building my projects and during Internships."
         />
         <LatestPosts
-          title="The Latest from Barcadia"
-          introduction="Cras scelerisque, tellus sed gravida tincidunt, velit tellus blandit justo, nec viverra augue erat in erat. Maecenas iaculis sed purus non fringilla."
+          title="Latest Blog Posts"
+          introduction="A collection of awesome blogs about interesting trends in the world of technology. I write about topics ranging from Software Developement, bug bounties, CTFs, Hack the box walkthroughs, hardware challenges, real-life encounters and everything which can help other enthusiasts learn."
         />
       </Layout>
     </>

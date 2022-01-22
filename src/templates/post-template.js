@@ -19,7 +19,7 @@ const PostTemplate = (contentfulPost) => {
             <article className="blogsingle__content">
               <RichText richText={content} />
               <div className="blogsingle__back">
-                <Button to="/news" text="Back to news" as={Link} />
+                <Button to="/blog" text="Back to blog" as={Link} />
               </div>
             </article>
           )}
