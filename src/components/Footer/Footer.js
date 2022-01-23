@@ -7,7 +7,7 @@ import { UseSiteMetadata } from "../../hooks/useSiteMetadata"
 import {
   FaFacebookSquare as Facebook,
   FaTwitterSquare as Twitter,
-  FaInstagram as Instagram,
+  //FaInstagram as Instagram,
   FaLinkedin as Linkedin,
   FaGithubSquare as Github,
 } from "react-icons/fa"

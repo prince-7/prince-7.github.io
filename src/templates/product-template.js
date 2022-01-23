@@ -3,7 +3,7 @@ import Seo from "../components/SEO"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import styled from "styled-components"
 import BannerModule from "../components/BannerModule/BannerModule"
-import Faq from "../components/Faq/Faq"
+//import Faq from "../components/Faq/Faq"
 import Features from "../components/Features/Features"
 import RichText from "../components/RichText"
 
@@ -73,8 +73,9 @@ const Producttemplate = (contentfulProduct) => {
     title,
     introduction,
     description,
-    faqs,
     gallery,
+    viewProject,
+    viewCode,
   } = contentfulProduct
   const productHeaderImage = getImage(headerImage)
   return (
@@ -84,6 +85,8 @@ const Producttemplate = (contentfulProduct) => {
         title={title}
         subTitle={introduction}
         enquire={true}
+        viewCode={viewCode}
+        viewProject={viewProject}
       >
         <GatsbyImage
           className="banner__image"
@@ -98,7 +101,7 @@ const Producttemplate = (contentfulProduct) => {
               <RichText richText={description} />
             </div>
           )}
-          {faqs && (
+          {/*faqs && (
             <div className="column">
               {faqs.map((item, index) => {
                 return (
@@ -110,7 +113,7 @@ const Producttemplate = (contentfulProduct) => {
                 )
               })}
             </div>
-          )}
+            )*/}
         </div>
       </ProductTemplateStyles>
       {gallery && (

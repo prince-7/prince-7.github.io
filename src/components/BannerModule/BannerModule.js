@@ -3,18 +3,18 @@ import { Link } from "gatsby"
 import { BannerModuleStyles } from "./BannerModuleStyles"
 import { StaticImage } from "gatsby-plugin-image"
 import Button from "../Button/Button"
-import { FooterStyles, FooterMenuStyles } from "../Footer/FooterStyles"
+/*import { FooterStyles, FooterMenuStyles } from "../Footer/FooterStyles"
 import { UseSiteMetadata } from "../../hooks/useSiteMetadata"
 import {
   FaFacebookSquare as Facebook,
   FaTwitterSquare as Twitter,
   FaInstagram as Instagram,
   FaLinkedin as Linkedin,
-  FaGithub as Github,
-} from "react-icons/fa"
+  FaGithubSquare as Github,
+} from "react-icons/fa"*/
 
-const BannerModule = ({ children, title, subTitle, price, enquire }) => {
-  const siteMeta = UseSiteMetadata()
+const BannerModule = ({ children, title, subTitle, price, enquire, viewCode, viewProject }) => {
+  //const siteMeta = UseSiteMetadata()
   return (
     <>
       <BannerModuleStyles>
@@ -49,16 +49,24 @@ const BannerModule = ({ children, title, subTitle, price, enquire }) => {
             <div className="banner__btns">
               {enquire && (
                 <Button
+                className="btn"
+                text="View Project"
+                as={Link}
+                to={viewCode}
+                />
+              )}
+              {enquire && (
+                <Button
                   className="btn"
-                  text="View Code"
+                  text="View Project"
                   as={Link}
-                  to="https://summerofcode.withgoogle.com/archive/2021/projects/4757291168956416"
+                  to={viewProject}
                 />
               )}
               {!enquire && (
                 <Button
                 className="btn"
-                text="~$ whoami"
+                text="About Me"
                 as={Link}
                 to="/about"
               />
