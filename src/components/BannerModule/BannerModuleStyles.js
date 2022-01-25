@@ -5,6 +5,9 @@ export const BannerModuleStyles = styled.section`
   position: relative;
   padding: 30px var(--borderSpacing);
 
+  #link {
+    text-decoration: none;
+  }
   .container {
     height: 100%;
     display: flex;

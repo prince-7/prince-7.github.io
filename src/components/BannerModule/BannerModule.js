@@ -50,7 +50,7 @@ const BannerModule = ({ children, title, subTitle, price, enquire, viewCode, vie
               {enquire && (
                 <Button
                 className="btn"
-                text="View Project"
+                text="View Code"
                 as={Link}
                 to={viewCode}
                 />
@@ -70,6 +70,20 @@ const BannerModule = ({ children, title, subTitle, price, enquire, viewCode, vie
                 as={Link}
                 to="/about"
               />
+              )
+              }
+              {!enquire && (
+                  <a
+                  href="https://drive.google.com/file/d/15RlZ1_wE4r9-ce11Z3EZBB3ljBekf8dE/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  id="link"
+                  >
+                    <Button
+                      className="btn"
+                      text="Resume"
+                    />
+                  </a>
               )
               }
             </div>
