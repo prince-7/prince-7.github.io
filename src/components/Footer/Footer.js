@@ -70,7 +70,7 @@ const Footer = () => {
             {siteMeta.githubUsername && (
                   <li>
                     <a
-                      href={`https:/github.com/${siteMeta.githubUsername}`}
+                      href={`https://github.com/${siteMeta.githubUsername}`}
                       target="_blank"
                       rel="nofollow noreferrer noopener"
                     >
