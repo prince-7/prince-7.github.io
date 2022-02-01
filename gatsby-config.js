@@ -16,6 +16,7 @@ module.exports = {
     instagramUsername: "am4n_s1ngh",
     linkedinUsername: "aman-v-singh",
     githubUsername: "prince-7",
+    mediumUsername: "dun930nmaster",
     image: "/dungeonmaster.jpg",
     siteUrl: "https://amanvsingh.me",
     developerName: "Aman Singh",

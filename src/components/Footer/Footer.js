@@ -10,6 +10,7 @@ import {
   //FaInstagram as Instagram,
   FaLinkedin as Linkedin,
   FaGithubSquare as Github,
+  FaMedium as Medium,
 } from "react-icons/fa"
 
 const Footer = () => {
@@ -108,6 +109,17 @@ const Footer = () => {
                     rel="nofollow noreferrer noopener"
                   >
                     <Linkedin />
+                  </a>
+                </li>
+              )}
+              {siteMeta.mediumUsername && (
+                <li>
+                  <a
+                    href={`https://medium.com/@${siteMeta.mediumUsername}`}
+                    target="_blank"
+                    rel="nofollow noreferrer noopener"
+                  >
+                    <Medium />
                   </a>
                 </li>
               )}
